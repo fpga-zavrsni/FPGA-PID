@@ -1,0 +1,33 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\tarik\Desktop\ZaPredati\Kod\src\PID_regulacija.sv'
+Analyzing Verilog file 'C:\Users\tarik\Desktop\ZaPredati\Kod\src\PWM_izlaz.sv'
+Analyzing Verilog file 'C:\Users\tarik\Desktop\ZaPredati\Kod\src\UART.sv'
+Analyzing Verilog file 'C:\Users\tarik\Desktop\ZaPredati\Kod\src\adc.sv'
+Analyzing Verilog file 'C:\Users\tarik\Desktop\ZaPredati\Kod\src\top.sv'
+Compiling module 'top'("C:\Users\tarik\Desktop\ZaPredati\Kod\src\top.sv":1)
+Compiling module 'adc'("C:\Users\tarik\Desktop\ZaPredati\Kod\src\adc.sv":2)
+WARN  (EX3780) : Using initial value of 'setupRegister' since it is never assigned("C:\Users\tarik\Desktop\ZaPredati\Kod\src\adc.sv":23)
+Compiling module 'PID_regulacija'("C:\Users\tarik\Desktop\ZaPredati\Kod\src\PID_regulacija.sv":1)
+Compiling module 'PWM_izlaz'("C:\Users\tarik\Desktop\ZaPredati\Kod\src\PWM_izlaz.sv":1)
+Compiling module 'uart'("C:\Users\tarik\Desktop\ZaPredati\Kod\src\UART.sv":2)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\tarik\Desktop\ZaPredati\Kod\impl\gwsynthesis\Komunikacija.vg" completed
+[100%] Generate report file "C:\Users\tarik\Desktop\ZaPredati\Kod\impl\gwsynthesis\Komunikacija_syn.rpt.html" completed
+GowinSynthesis finish

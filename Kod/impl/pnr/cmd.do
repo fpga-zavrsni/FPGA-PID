@@ -1,0 +1,11 @@
+-d C:\Users\tarik\Desktop\ZaPredati\Kod\impl\gwsynthesis\Komunikacija.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst C:\Users\tarik\Desktop\ZaPredati\Kod\src\Komunikacija.cst
+-cfg C:\Users\tarik\Desktop\ZaPredati\Kod\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-route_maxfan 23
